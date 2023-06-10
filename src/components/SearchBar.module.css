@@ -1,0 +1,26 @@
+.search{
+    background-color: black;
+    padding-left: 1050px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display:flex;
+ 
+}
+
+.input{
+    height: 35px;
+
+
+}
+
+.boton{
+    font-size: 20px;
+
+}
+
+.boton:hover{
+    background-color: aqua;
+    color: blueviolet;
+    cursor: pointer;
+}

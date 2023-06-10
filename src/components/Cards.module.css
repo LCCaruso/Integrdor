@@ -1,0 +1,9 @@
+.container{
+    background-image: url("https://fondosmil.com/fondo/31113.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 800px;
+
+}
+

@@ -1,0 +1,74 @@
+.container{
+    border: 2px solid darkcyan;
+    width: fit-content;
+    height: fit-content;
+    display: flexbox;
+    border-radius: 15px;
+    padding: auto;
+    transition: .5s;
+    margin-top: 50px;
+    
+}
+
+.lineas{
+    border: 1px solid darkcyan;
+    width: 100px;
+    
+
+}
+
+
+.container:hover{
+    transition: .2s;
+    border-radius: 150px;
+
+}    
+
+
+.equis{
+    display: inline-flex;
+
+}
+
+.equis:hover{
+    background-color: aqua;
+    color: blueviolet;
+    cursor: pointer;
+    transition: .5s;
+}
+    
+    
+
+.general{
+    color: white;
+    font-size: 14px;
+   
+   
+
+}
+
+
+
+.general:hover{
+    color: greenyellow;
+    transition: .2s;
+    
+
+}
+
+
+.imagen{
+    width: 175px;
+    transition: .2s;
+    border-radius: 15px;
+    padding-bottom: -50px;
+    margin-top: 5px;
+    
+}
+
+.imagen:hover{
+    border-radius: 150px;
+    width: 300px;
+    cursor: pointer;
+    
+}
