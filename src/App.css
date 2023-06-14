@@ -1,4 +1,17 @@
-.App {
-   text-align: center;
-   background-color: black;
+.titulo{
+    height: 85px;
+}
+
+.primer{
+    height: 800px;
+    margin-top: -50px;
+    background-image: url(https://wallpaperwaifu.com/wp-content/uploads/2022/09/rick-and-morty-in-space-thumb.jpg);
+    background-size: cover;
+}
+
+.letra{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: -10px;
 }

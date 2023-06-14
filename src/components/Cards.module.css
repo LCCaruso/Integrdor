@@ -1,9 +1,8 @@
 .container{
-    background-image: url("https://fondosmil.com/fondo/31113.jpg");
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 800px;
-
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+   
 }
-
