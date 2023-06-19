@@ -1,0 +1,8 @@
+.contenedor{
+    position: relative;
+    align-items:center ;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/592/378/467/tv-show-rick-and-morty-mug-shot-rick-sanchez-wallpaper-preview.jpg") 
+}

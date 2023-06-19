@@ -1,17 +1,22 @@
 .titulo{
     height: 85px;
+    background-image: url(https://st.depositphotos.com/2012555/3457/i/450/depositphotos_34571385-stock-photo-green-background.jpg) ;
+    background-size: cover;
+   
 }
 
 .primer{
     height: 800px;
     margin-top: -50px;
-    background-image: url(https://wallpaperwaifu.com/wp-content/uploads/2022/09/rick-and-morty-in-space-thumb.jpg);
+    background-image: url(https://wallpapers.com/images/hd/rick-and-morty-unamused-rick-agpuysmhk3lhdl4p.jpg);
     background-size: cover;
 }
 
 .letra{
+    color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 80px;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -10px; 
+    text-shadow: 25px 20px 25px black;
 }
