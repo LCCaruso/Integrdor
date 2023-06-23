@@ -71,7 +71,7 @@ function App() {
       <div>
             <div className='titulo'> 
             {
-               location.pathname !== "/" && <Nav onSearch={onSearch} random={randomHandler}/>
+               location.pathname !== "/" && <Nav onSearch={onSearch} random={randomHandler} setAccess={setAccess}/>
             }
             <h1 className='letra'>Rick & Morty</h1>
             </div>

@@ -3,7 +3,11 @@ import style from "./Nav.module.css";
 import { Link } from "react-router-dom"
 
 
-const Nav = ({ onSearch, random }) => {
+const Nav = ({ onSearch, random , setAccess}) => {
+
+    const handleLogOut = () => {
+        setAccess(false); 
+    }
 
     return (
         <nav className={style.nav}>
@@ -14,7 +18,8 @@ const Nav = ({ onSearch, random }) => {
         <button>
             <Link to="/home">Home</Link>
         </button>
-        <button onClick={random}>Random</button>
+        <button onClick={random}>Add Random</button>
+        <button onClick={handleLogOut}>Log Out</button>
         </nav>
     )
 }
