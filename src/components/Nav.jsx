@@ -12,14 +12,21 @@ const Nav = ({ onSearch, random , setAccess}) => {
     return (
         <nav className={style.nav}>
             <SearchBar onSearch={onSearch}/>
-        <button>
-            <Link to="/about">About</Link>
+        <button className={style.about}>
+            <Link to="/about">ABOUT</Link>
         </button>
-        <button>
-            <Link to="/home">Home</Link>
+        <button className={style.home}>
+            <Link to="/home">HOME</Link>
         </button>
-        <button onClick={random}>Add Random</button>
-        <button onClick={handleLogOut}>Log Out</button>
+        <button className={style.fav}>
+            <Link to="/favorites">FAVORITES</Link>
+        </button>
+        <div>
+        <button className={style.log} onClick={handleLogOut}>Log Out</button>
+        </div>
+        <div>
+        <button className={style.random} onClick={random}>Add Random</button>
+        </div>
         </nav>
     )
 }
