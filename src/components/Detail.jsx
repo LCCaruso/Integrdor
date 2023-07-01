@@ -23,7 +23,7 @@ const Detail = () => {
     return(
         <div>
         <button className={style.back}>
-        <Link to="/home">Back</Link>
+        <Link to="/home">BACK</Link>
         </button>    
         <div className={style.info}> 
             <h2>Name: {character?.name}</h2>
